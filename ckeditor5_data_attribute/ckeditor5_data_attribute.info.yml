@@ -1,0 +1,5 @@
+name: CKEditor Data Attribute
+type: module
+description: 'CKEditor Data Attribute.'
+package: Custom
+core_version_requirement: '^9.0.0'
