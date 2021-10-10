@@ -17,7 +17,7 @@ getDirectories('./ckeditor5_plugins').forEach((dir) => {
   const bc = {
     mode: 'production',
     optimization: {
-      minimize: true,
+      minimize: false,
       minimizer: [
         new TerserPlugin({
           terserOptions: {

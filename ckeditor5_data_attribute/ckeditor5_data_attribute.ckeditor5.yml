@@ -11,7 +11,8 @@ ckeditor5_data_attribute_demo_simplebox:
 
   # Configuration that will be sent to CKEditor 5 JavaScript plugins.
   ckeditor5:
-    plugins: [demoPlugin.SimpleBox]
+    plugins:
+      - demoPlugin.placeholder
     # *Additional configuration properties*
     # config: data sent to the constructor of any CKEditor 5 plugin
     #   editorPluginName:
@@ -27,14 +28,11 @@ ckeditor5_data_attribute_demo_simplebox:
     toolbar_items:
       # This should match the name of the corresponding plugin exported in the
       # plugin's index.js.
-      simpleBox:
+      placeholder:
         label: Simple box demo
     # If the plugin does not provide elements, set this as
     # `elements: false`
-    elements:
-      - <h2 class="simple-box-title">
-      - <div class="simple-box-description">
-      - <section class="simple-box">
+    elements: false
     # *Additional configuration properties*
     # conditions: for setting additional criteria that must be met for the
     #   plugin to be active.

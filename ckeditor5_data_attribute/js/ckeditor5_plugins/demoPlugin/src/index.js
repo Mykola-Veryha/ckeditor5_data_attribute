@@ -7,8 +7,8 @@
  */
 // cSpell:ignore simplebox
 
-import SimpleBox from './simplebox';
+import placeholder from './placeholder';
 
 export default {
-  SimpleBox,
+  placeholder,
 };
